@@ -18,3 +18,16 @@ html,body{
     width: 300px;
     background-color:orange;
 }
+
+h1{
+    color:blueviolet;
+    font-size: 40px;
+}
+h2{
+    color:burlywood;
+    font-size: 40px;
+}
+h3{
+    color:cadetblue;
+    font-size: 40px;
+}
