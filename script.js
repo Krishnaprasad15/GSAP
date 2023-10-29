@@ -1,0 +1,27 @@
+// IN GSAP THERE ARE TWO THINGS TO ANIMATE ANYTHING
+//     1. GSAP.TO      - FROM  INITIAL POS TO FINAL POSITION
+//     2. GSAP.FROM    - FROM FINAL POSITION TO INITIAL POSITION BASICALLY REVERSE OF TO.ANIMATE
+
+// WE CAN MOVE ANYTHING THROUGH X AND Y AXIS MENTIONING X:__PIXELS AND Y:__PIXELS
+// BUT THE THING IS WE CANT SEE ANY ANIMATION BUT THE THING WE WANT TO ANIMATE IS AT IT'S FINAL POS TO SEE THE ANIMATION WE USE DURATION:__ SECONDS AND A DELAY:__ SECONDS
+
+// IF WE WANT TO ROTATE THE BOX WE SIMPLY USE THE ROTATE:__ DEGREES
+
+gsap.to("#box2",{
+    x:1000,
+    y:300,
+    backgroundColor:"red",
+    duration:2,
+    delay:1,
+    rotate:360,
+    repeat:-1
+    // scale:0.5
+})
+
+// gsap.from("#box2",{
+//     x:1000,
+//     y:300,
+//     duration:2,
+//     delay:1,
+//     rotate:360,
+// })
